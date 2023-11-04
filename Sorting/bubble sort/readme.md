@@ -28,3 +28,5 @@ Ans. Based on the number of comparisons in each method, the recursive bubble sor
 ### Worst Case:  
 The worst-case condition for bubble sort occurs when elements of the array are arranged in decreasing order.
 In the worst case, the total number of iterations or passes required to sort a given array is (N-1). where ‘N’ is the number of elements present in the array.
+### Average Case Time Complexity: 
+The number of comparisons is constant in Bubble Sort. So in average case, there are O(N2) comparisons. This is because irrespective of the arrangement of elements, the number of comparisons C(N) is same
