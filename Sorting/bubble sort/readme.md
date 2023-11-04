@@ -21,3 +21,10 @@ Ans. Recursive bubble sort runs on O(n) auxiliary space complexity whereas itera
 
 2. Which is faster iterative or recursive bubble sort?
 Ans. Based on the number of comparisons in each method, the recursive bubble sort is better than the iterative bubble sort, but the time complexity for both the methods is same.
+
+
+### Best Case: 
+ The best case occurs when the array is already sorted. So the number of comparisons required is N-1 and the number of swaps required = 0. Hence the best case complexity is O(N).
+### Worst Case:  
+The worst-case condition for bubble sort occurs when elements of the array are arranged in decreasing order.
+In the worst case, the total number of iterations or passes required to sort a given array is (N-1). where ‘N’ is the number of elements present in the array.
